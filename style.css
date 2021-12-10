@@ -1,0 +1,29 @@
+h1,h3,h5 { 
+    font-family: 'Montserrat', 
+    sans-serif;
+}
+
+p {
+    font-family: 'Montserrat',
+    sans-serif;
+}
+
+.footer {
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+}
+
+.card-img-octocat {
+    height:150px;
+    width:150px;
+}
+
+.card-img-tribe {
+    height:150px;
+    width: 120px;;
+}
+
+.icon-color {
+    color: black;
+}
