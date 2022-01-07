@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="style.css">    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js"></script>
   </head>
   <body> 
 
@@ -53,19 +53,19 @@
               <h5>Portfolio Website</h5>
             </div>
             <div class="row">
-              <div class="col">
+              <div class="col-2">
                 <img class="card-img-top card-img-octocat" src="resources/github-octocat.png" alt="Card image GitHub">
               </div>
-              <div class="col">
+              <div class="col-10">
                 <div class="card-body">
-                  <p class="card-text">This website!</p>
-                  <a href="https://github.com/kylekumm/kylekumm.github.io" target="_blank" class="btn btn-primary">GitHub</a>
+                  <p class="card-text">This portfolio website, built using HTML, CSS, Bootstrap and vanilla JavaScript.</p>
+                  <a href="https://github.com/kylekumm" target="_blank" class="btn btn-primary">GitHub</a>
                 </div>
               </div>
             </div>            
           </div>
 
-          <div class="col m-2 p-2 card text-center">
+          <!-- <div class="col m-2 p-2 card text-center">
             <div class="card-title">
               <h5>Tribe MVP</h5>
             </div>
@@ -80,7 +80,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
         </div>
 
@@ -88,7 +88,12 @@
 
       <!-- Footer -->
       <div class="p-4 mb-0 bg-light text-black text-center">
-        <p>Kyle Kumm 2021 <br>
+        <p>Kyle Kumm ©<span id="year">
+          <script type="text/javascript">
+            year = new Date().getFullYear();
+            document.write(year);
+          </script>
+        </span><br>
           <a href="https://www.linkedin.com/in/kyle-kumm/" target="_blank"><i class="fa fa-linkedin-square icon-color"></i></a>&nbsp;&nbsp;
           <a href="https://github.com/kylekumm" target="_blank"><i class="fa fa-github fa-2 icon-color"></i></a>
         </p>      
