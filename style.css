@@ -15,8 +15,8 @@ p {
 }
 
 .card-img-octocat {
-    height:150px;
-    width:150px;
+    height:8%;
+    width:8%;
 }
 
 .card-img-tribe {
@@ -26,4 +26,8 @@ p {
 
 .icon-color {
     color: black;
+}
+
+.linkedin-icon-color {
+    color: blue;
 }
